@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title></title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  <meta name="keywords" content="keywords,here">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+<body>
+  <h3>signup</h3>
+
+  <form action="/signin" method="post">
+  {% csrf_token %} 
+    
+     <br><lable for="">Email address</lable>
+     <input type="email" id="email" name="email" placeholder="Enter your Email address "Required></<br>br>
+
+     <br><lable for="">Password</lable>
+     <input type="password" id="pass1" name="pass1" placeholder="Enter your Password"Required></br>
+
+
+
+
+     <button type="submit">SignIn</button>
+     
+
+
+  </form>
+</body>
+</html>
